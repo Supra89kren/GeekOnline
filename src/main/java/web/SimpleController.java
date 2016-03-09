@@ -16,6 +16,7 @@ public class SimpleController {
     @RequestMapping("/")
     @ResponseBody
     String home(){
+
         return "<input type=text placeholder=asd>";
     }
 
